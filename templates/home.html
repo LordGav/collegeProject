@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Management</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
+        <meta content="Coderthemes" name="author">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+      
+        <!-- App css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+        <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+
+    </head>
+
+    <body class="loading" data-layout-config='{"leftSideBarTheme":"dark","layoutBoxed":false, "leftSidebarCondensed":false, "leftSidebarScrollable":false,"darkMode":false, "showRightSidebarOnStart": true}'>
+        <!-- Begin page -->
+        <div class="wrapper">
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="leftside-menu">
+    
+                <!-- LOGO -->
+                <a href="index.html" class="logo text-center logo-light">
+                    <span class="logo-lg">
+                        <img src="assets/images/logo.png" alt="" height="16">
+                    </span>
+                    <span class="logo-sm">
+                        <img src="assets/images/logo_sm.png" alt="" height="16">
+                    </span>
+                </a>
+
+                <!-- LOGO -->
+                <a href="index.html" class="logo text-center logo-dark">
+                    <span class="logo-lg">
+                        <img src="assets/images/logo-dark.png" alt="" height="16">
+                    </span>
+                    <span class="logo-sm">
+                        <img src="assets/images/logo_sm_dark.png" alt="" height="16">
+                    </span>
+                </a>
+    
+                <div class="h-100" id="leftside-menu-container" data-simplebar="">
+
+                    <!--- Sidemenu -->
+                    <ul class="side-nav">
+
+                        <li class="side-nav-title side-nav-item">Navigation</li>
+
+                        <li class="side-nav-item">
+                            <a href="Home.html" class="side-nav-link">
+                                <i class="uil-calender"></i>
+                                <span> Home </span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a href="Global.html" class="side-nav-link">
+                                <i class="uil-comments-alt"></i>
+                                <span> Global </span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false" aria-controls="sidebarEcommerce" class="side-nav-link">
+                                <i class="uil-store"></i>
+                                <span> Advance </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <div class="collapse" id="sidebarEcommerce">
+                                <ul class="side-nav-second-level">
+                                    <li>
+                                        <a href="Portfolio_Risk.html">Portfolio Risk</a>
+                                    </li>
+                                    <li>
+                                        <a href="Portfolio_Hedging.html">Portfolio Hedging</a>
+                                    </li>
+                                    <li>
+                                        <a href="apps-ecommerce-orders.html">Portfolio Components</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- end Help Box -->
+                    <!-- End Sidebar -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+                <!-- Sidebar -left -->
+
+            </div>
+            <!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    <!-- Topbar Start -->
+                    <div class="navbar-custom">
+                        <ul class="list-unstyled topbar-menu float-end mb-0">
+                            <li class="dropdown notification-list">
+                                <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                    <span class="account-user-avatar"> 
+                                        <img src="assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                                    </span>
+                                    <span>
+                                        <span class="account-user-name">Bhargav Kumare</span>
+                                        <span class="account-position">Founder</span>
+                                    </span>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
+                                    <!-- item-->
+                                    <div class=" dropdown-header noti-title">
+                                        <h6 class="text-overflow m-0">Welcome !</h6>
+                                    </div>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="mdi mdi-account-circle me-1"></i>
+                                        <span>My Account</span>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="mdi mdi-logout me-1"></i>
+                                        <span>Logout</span>
+                                    </a>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <button class="button-menu-mobile open-left">
+                            <i class="mdi mdi-menu"></i>
+                        </button>
+                    </div>
+                    <!-- end Topbar -->
+
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item active">Home</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">HOME</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+                            <div class="col-lg-6 col-xl-3">
+                                 <div class="card tilebox-one">
+                                    <div class="card-body">
+                                        <i class='uil uil-users-alt float-end'></i>
+                                        <h6 class="text-uppercase mt-0">Portfolio </h6>
+                                        <h2 class="my-2" id="active-users-count">121</h2>
+                                        <p class="mb-0 text-muted">
+                                            <span class="text-success me-2"><span class="mdi mdi-arrow-up-bold"></span> 5.27%</span>
+                                            <span class="text-nowrap">Since last month</span>  
+                                        </p>
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+        
+                            <div class="col-lg-6 col-xl-3">
+                                 <div class="card tilebox-one">
+                                    <div class="card-body">
+                                        <i class='uil uil-users-alt float-end'></i>
+                                        <h6 class="text-uppercase mt-0">Nifty</h6>
+                                        <h2 class="my-2" id="active-users-count">121</h2>
+                                        <p class="mb-0 text-muted">
+                                            <span class="text-success me-2"><span class="mdi mdi-arrow-up-bold"></span> 5.27%</span>
+                                            <span class="text-nowrap">Since last month</span>  
+                                        </p>
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card -->
+                            </div> <!-- end col -->
+
+                            <div class="col-lg-6 col-xl-3">
+                                 <div class="card tilebox-one">
+                                    <div class="card-body">
+                                        <i class='uil uil-users-alt float-end'></i>
+                                        <h6 class="text-uppercase mt-0">Bank Nifty</h6>
+                                        <h2 class="my-2" id="active-users-count">121</h2>
+                                        <p class="mb-0 text-muted">
+                                            <span class="text-success me-2"><span class="mdi mdi-arrow-up-bold"></span> 5.27%</span>
+                                            <span class="text-nowrap">Since last month</span>  
+                                        </p>
+                                    </div> <!-- end card-body-->
+                                </div><!-- end card -->
+                            </div> <!-- end col -->
+
+                            <div class="col-lg-6 col-xl-3">
+                                 <div class="card tilebox-one">
+                                    <div class="card-body">
+                                        <i class='uil uil-users-alt float-end'></i>
+                                        <h6 class="text-uppercase mt-0">India Vix</h6>
+                                        <h2 class="my-2" id="active-users-count">121</h2>
+                                        <p class="mb-0 text-muted">
+                                            <span class="text-success me-2"><span class="mdi mdi-arrow-up-bold"></span> 5.27%</span>
+                                            <span class="text-nowrap">Since last month</span>  
+                                        </p>
+                                    </div> <!-- end card-body-->
+                                </div><!-- end card -->
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-lg-7 col-xl-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Today</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Yesterday</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Last Week</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Last Month</a>
+                                            </div>
+                                        </div>
+                                        
+                                        <h4 class="header-title mb-3">Revenue</h4>
+
+                                        <div class="chart-content-bg">
+                                            <div class="row text-center">
+                                                <div class="col-md-6">
+                                                    <p class="text-muted mb-0 mt-3">Current Month</p>
+                                                    <h2 class="fw-normal mb-3">
+                                                        <span>$42,025</span>
+                                                    </h2>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p class="text-muted mb-0 mt-3">Previous Month</p>
+                                                    <h2 class="fw-normal mb-3">
+                                                        <span>$74,651</span>
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div dir="ltr">
+                                            <div id="dash-revenue-chart" class="apex-charts" data-colors="#0acf97,#fa5c7c"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end card body-->
+                                </div>
+                                <!-- end card -->
+                            </div>
+                            <!-- end col-->
+                        </div>
+                        <!-- end row-->
+
+
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                
+                                                <a href="javascript:void(0);" class="dropdown-item">Settings</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                            </div>
+                                        </div>
+                                        <h4 class="header-title mb-3">Portfolio
+
+
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#add-new-task-modal" class="btn btn-primary btn-sm ms-3">Add Stocks</a></h4>
+ <!--  Add new task modal -->
+        <div class="modal fade task-modal-content" id="add-new-task-modal" tabindex="-1" role="dialog" aria-labelledby="NewTaskModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="NewTaskModalLabel">Add Portfolio Details</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="p-2">
+                            <div class="mb-3">
+                                <label class="form-label">Project</label>
+                                <select class="form-select form-control-light">
+                                    <option>Select</option>
+                                    <option>Hyper - Admin Dashboard</option>
+                                    <option>CRM - Design & Development</option>
+                                    <option>iOS - App Design</option>
+                                </select>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="mb-3">
+                                        <label for="task-title" class="form-label">Title</label>
+                                        <input type="text" class="form-control form-control-light" id="task-title" placeholder="Enter title">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label for="task-priority2" class="form-label">Priority</label>
+                                        <select class="form-select form-control-light" id="task-priority2">
+                                            <option>Low</option>
+                                            <option>Medium</option>
+                                            <option>High</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="task-description" class="form-label">Description</label>
+                                <textarea class="form-control form-control-light" id="task-description" rows="3"></textarea>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="task-title" class="form-label">Assign To</label>
+                                        <select class="form-select form-control-light" id="task-priority">
+                                            <option>Coderthemes</option>
+                                            <option>Robert Carlile</option>
+                                            <option>Louis Allen</option>
+                                            <option>Sean White</option>
+                                            <option>Riley Steele</option>
+                                            <option>Zak Turnbull</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="task-priority" class="form-label">Due Date</label>
+                                        <input type="text" class="form-control form-control-light" id="birthdatepicker" data-toggle="date-picker" data-single-date-picker="true">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="text-end">
+                                <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Create</button>
+                            </div>
+                        </form>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+                                        <div class="table-responsive">
+                                           <table class="table table-hover table-centered mb-0">
+    <thead>
+        <tr>
+            <th>Stock</th>
+            <th>Weightage (%)</th>
+            <th>Change (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Stock 1</td>
+            <td>%79.49</td>
+            <td>%6,518.18</td>
+        </tr>
+        <tr>
+            <td>Stock 2</td>
+            <td>%128.50</td>
+            <td>%4,754.50</td>
+        </tr>
+        <tr>
+            <td>Stock 3</td>
+            <td>%39.99</td>
+            <td>%2,559.36</td>
+        </tr>
+        <tr>
+            <td>Stock 4</td>
+            <td>%20.00</td>
+            <td>%3,680.00</td>
+        </tr>
+    </tbody>
+</table>
+                                        </div> <!-- end table-responsive-->
+                                       
+ <div class="table-responsive">
+                                           <table class="table table-hover table-centered mb-0">
+    <thead>
+        <tr>
+            <th>Total</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Stock 1</td>
+            <td>%79.49</td>
+        </tr>
+       
+    </tbody>
+</table>
+                                        </div>
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div>
+                            <!-- end col-->
+
+                            <div class="col-xl-4 col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-horizontal"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Today</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Yesterday</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Last Week</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Last Month</a>
+                                            </div>
+                                        </div>
+
+                                        <h4 class="header-title mb-1">News</h4>
+
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    
+                                         <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Golden Globes:</strong>
+                                                    <span class="text-muted">
+                                                        The 27 Best moments from the Golden Globe Awards
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>World Cricket:</strong>
+                                                    <span class="text-muted">
+                                                        India has won ICC T20 World Cup Yesterday
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex mt-3">
+                                            <i class='uil uil-arrow-growth me-2 font-18 text-primary'></i>
+                                            <div>
+                                                <a class="mt-1 font-14" href="javascript:void(0);">
+                                                    <strong>Antartica:</strong>
+                                                    <span class="text-muted">
+                                                        Metling of Totten Glacier could cause high risk to areas near by sea
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div> <!-- end card-body-->
+                                </div> 
+                                <!-- end card-->
+                            </div>
+                            <!-- end col -->  
+                            
+                            <div class="col-xl-4 col-lg-6">
+                               
+
+                                <!-- Todo-->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <!--div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                              
+                                                <a href="javascript:void(0);" class="dropdown-item">Settings</a>
+                                                
+                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                            </div>
+                                        </div>
+                                        <h4 class="header-title mb-2">Todo</h4>
+
+                                        <div class="todoapp">
+                                            <div data-simplebar="" style="max-height: 224px">
+                                                <ul class="list-group list-group-flush todo-list" id="todo-list"></ul>
+                                            </div>
+                                        </div--> <!-- end .todoapp-->
+
+                                    
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a href="javascript:void(0);" class="dropdown-item">Refresh Report</a>
+                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
+                                            </div>
+                                        </div>
+                                        <h4 class="header-title">Technical</h4>
+
+                                        <div id="sessions-os" class="apex-charts mt-3" data-colors="#727cf5,#0acf97,#fa5c7c,#ffbc00"></div>
+
+                                        <div class="row text-center mt-2">
+                                            <div class="col-6">
+                                                <h4 class="fw-normal">
+                                                    <span>6,510</span>
+                                                </h4>
+                                                <p class="text-muted mb-0">Online System</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <h4 class="fw-normal">
+                                                    <span>2,031</span>
+                                                </h4>
+                                                <p class="text-muted mb-0">Offline System</p>
+                                            </div>
+                                        </div>
+
+                                    
+
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+                                 
+                                  <div class="card">
+                                    <div class="card-body">
+                                        <!--div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                              
+                                                <a href="javascript:void(0);" class="dropdown-item">Settings</a>
+                                                
+                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                            </div>
+                                        </div>
+                                        <h4 class="header-title mb-2">Todo</h4>
+
+                                        <div class="todoapp">
+                                            <div data-simplebar="" style="max-height: 224px">
+                                                <ul class="list-group list-group-flush todo-list" id="todo-list"></ul>
+                                            </div>
+                                        </div--> <!-- end .todoapp-->
+
+                                        
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop p-0" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a href="javascript:void(0);" class="dropdown-item">Refresh Report</a>
+                                                <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
+                                            </div>
+                                        </div>
+                                        <h4 class="header-title">Fundamental</h4>
+
+                                        <div id="sessions-browser" class="apex-charts mt-1" data-colors="#727cf5"></div>
+                                     <!-- end card-body-->
+                                </div>
+
+                                    </div> <!-- end card-body -->
+                                </div>
+                            </div>
+                            <!-- end col -->  
+                        </div>
+                        <!-- end row-->
+                        
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <script>document.write(new Date().getFullYear())</script> © Portfolio Management
+                            </div>
+                           
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+
+        <!-- Right Sidebar -->
+        <div class="end-bar">
+
+            <div class="rightbar-title">
+                <a href="javascript:void(0);" class="end-bar-toggle float-end">
+                    <i class="dripicons-cross noti-icon"></i>
+                </a>
+                <h5 class="m-0">Settings</h5>
+            </div>
+
+            <div class="rightbar-content h-100" data-simplebar="">
+
+                <div class="p-3">
+                    <div class="alert alert-warning" role="alert">
+                        <strong>Customize </strong> the overall color scheme, sidebar menu, etc.
+                    </div>
+
+                    <!-- Settings -->
+                    <h5 class="mt-3">Color Scheme</h5>
+                    <hr class="mt-1">
+
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="color-scheme-mode" value="light" id="light-mode-check" checked="">
+                        <label class="form-check-label" for="light-mode-check">Light Mode</label>
+                    </div>
+
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="color-scheme-mode" value="dark" id="dark-mode-check">
+                        <label class="form-check-label" for="dark-mode-check">Dark Mode</label>
+                    </div>
+       
+
+                    <!-- Width -->
+                    <h5 class="mt-4">Width</h5>
+                    <hr class="mt-1">
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="width" value="fluid" id="fluid-check" checked="">
+                        <label class="form-check-label" for="fluid-check">Fluid</label>
+                    </div>
+
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="width" value="boxed" id="boxed-check">
+                        <label class="form-check-label" for="boxed-check">Boxed</label>
+                    </div>
+        
+
+                    <!-- Left Sidebar-->
+                    <h5 class="mt-4">Left Sidebar</h5>
+                    <hr class="mt-1">
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="theme" value="default" id="default-check">
+                        <label class="form-check-label" for="default-check">Default</label>
+                    </div>
+
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="theme" value="light" id="light-check" checked="">
+                        <label class="form-check-label" for="light-check">Light</label>
+                    </div>
+
+                    <div class="form-check form-switch mb-3">
+                        <input class="form-check-input" type="checkbox" name="theme" value="dark" id="dark-check">
+                        <label class="form-check-label" for="dark-check">Dark</label>
+                    </div>
+
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="compact" value="fixed" id="fixed-check" checked="">
+                        <label class="form-check-label" for="fixed-check">Fixed</label>
+                    </div>
+
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="compact" value="condensed" id="condensed-check">
+                        <label class="form-check-label" for="condensed-check">Condensed</label>
+                    </div>
+
+                    <div class="form-check form-switch mb-1">
+                        <input class="form-check-input" type="checkbox" name="compact" value="scrollable" id="scrollable-check">
+                        <label class="form-check-label" for="scrollable-check">Scrollable</label>
+                    </div>
+
+                    <div class="d-grid mt-4">
+                        <button class="btn btn-primary" id="resetBtn">Reset to Default</button>
+            
+                        <a href="../../product/hyper-responsive-admin-dashboard-template/index.htm" class="btn btn-danger mt-3" target="_blank"><i class="mdi mdi-basket me-1"></i> Purchase Now</a>
+                    </div>
+                </div> <!-- end padding-->
+
+            </div>
+        </div>
+
+        <div class="rightbar-overlay"></div>
+        <!-- /End-bar -->
+          <!-- bundle -->
+        <script src="assets/js/vendor.min.js"></script>
+        <script src="assets/js/app.min.js"></script>
+
+        <!-- Apex js -->
+        <script src="assets/js/vendor/apexcharts.min.js"></script>
+
+        <!-- Todo js -->
+        <script src="assets/js/ui/component.todo.js"></script>
+
+        <!-- demo app -->
+        <script src="assets/js/pages/demo.dashboard-crm.js"></script>
+
+         <!-- third party js -->
+         <script src="assets/js/vendor/fullcalendar.min.js"></script>
+         <!-- third party js ends -->
+
+
+        <!-- third party js -->
+        <!-- <script src="assets/js/vendor/Chart.bundle.min.js"></script> -->
+        <script src="assets/js/vendor/apexcharts.min.js"></script>
+        <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
+        <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
+        <!-- third party js ends -->
+
+        <!-- demo app -->
+        <script src="assets/js/pages/demo.dashboard-analytics.js"></script>
+            <script src="assets/js/pages/demo.calendar.js"></script>
+
+
+        <!-- end demo js-->
+
+       
+    </body>
+</html>
